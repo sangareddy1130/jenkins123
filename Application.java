@@ -20,8 +20,7 @@ class Main {
     }
     catch(Exception e) {
       e.getStackTrace();
-    }
-  }
+
 #feauture202 changes made by ana on creditcards module
 public static void main(String[] args) {
 
@@ -37,4 +36,25 @@ public static void main(String[] args) {
       System.out.println("The File is not deleted.");
     }
   }
+# feauture201 changes by john for ICICI bank project
+public static void main(String[] args) {
+
+    char[] array = new char[100];
+    try {
+      // Creates a reader using the FileReader
+      FileReader input = new FileReader("input.txt");
+
+      // Reads characters
+      input.read(array);
+      System.out.println("Data in the file:");
+      System.out.println(array);
+
+      // Closes the reader
+      input.close();
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+      }
+
+
 }
